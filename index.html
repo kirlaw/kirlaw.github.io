@@ -47,9 +47,9 @@
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
-      copy_button: 'Kopieren',
-      copy_success: 'Kopiert',
-      copy_failure: 'Kopieren fehlgeschlagen'
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
     }
   };
 </script>
@@ -134,7 +134,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Navigationsleiste an/ausschalten">
+    <button aria-label="Toggle navigation bar">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -154,7 +154,7 @@
       
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
 
   </li>
       
@@ -165,7 +165,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
 
   </li>
   </ul>
@@ -210,7 +210,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
             
-            <a href="/2019/08/28/ctypes/" class="post-title-link" itemprop="url">Unbenannt</a>
+            <a href="/2019/08/28/ctypes/" class="post-title-link" itemprop="url">ctypes</a>
           
         </h1>
 
@@ -219,13 +219,13 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
+              <span class="post-meta-item-text">Posted on</span>
 
               
                 
               
 
-              <time title="Erstellt: 2019-08-28 11:48:40 / Geändert am: 11:48:56" itemprop="dateCreated datePublished" datetime="2019-08-28T11:48:40+08:00">2019-08-28</time>
+              <time title="Created: 2019-08-28 11:48:40 / Modified: 12:00:02" itemprop="dateCreated datePublished" datetime="2019-08-28T11:48:40+08:00">2019-08-28</time>
             </span>
           
             
@@ -244,8 +244,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <hr>
-<h2 id="title-ctypes"><a href="#title-ctypes" class="headerlink" title="title: ctypes"></a>title: ctypes</h2><p>| <strong>ctypes type</strong>   | <strong>C type</strong>   | <strong>Python Type</strong>   |<br>|:—-:|:—-:|:—-:|:—-:|:—-:|:—-:|<br>| c_char   | char   | 1-character string   |<br>| c_wchar   | wchar_t   | 1-character unicode string   |<br>| c_byte   | char   | int/long   |<br>| c_ubyte   |  unsigned char    | int/long   |<br>| c_bool   | bool   | bool   |<br>| c_short   | short   | int/long   |<br>| c_ushort   |             unsigned short                 | int/long   |<br>| c_int   | int   | int/long   |<br>| c_uint   | unsigned int             | int/long   |<br>| c_long   | long   |                 int/long                                                 |<br>| c_ulong   |         unsigned long   |                  int/long                                                |<br>| c_longlong                |     __int64 or longlong   |            int/long                                                      |<br>| c_ulonglong                |   unsigned __int64 or unsigned long long   |              int/long                                                    |<br>| c_float                |              float     | float       |<br>| c_double                |                double       |             float                            |<br>| c_longdouble                |               long double    |                  float    float                                                |<br>| c_char_p                |                char   |                   <em>string or None</em>                                               |<br>| <em>c_wchar_p</em>                |                *wchar_t *   |                 unicode or None                                                 |<br>| c_void_p                |                void *   |                     int/long or None                                              | </p>
+          <p>|<strong>ctypes type</strong>|<strong>C type</strong>|<strong>Python Type</strong>|<br>|:—-:|:—-:|:—-:|:—-:|:—-:|:—-:|<br>| c_char | char | 1-character string |<br>| c_wchar | wchar_t | 1-character unicode string |<br>| c_byte | char | int/long |<br>| c_ubyte | unsigned char | int/long |<br>| c_bool | bool | bool |<br>| c_short | short | int/long |<br>| c_ushort | unsigned short | int/long |<br>| c_int   | int   | int/long   |<br>| c_uint   | unsigned int| int/long|<br>| c_long   | long   |                 int/long                                                 |<br>| c_ulong   |  unsigned long   | int/long |<br>| c_longlong  | __int64 or longlong |   int/long  |<br>| c_ulonglong | unsigned __int64 or unsigned long long | int/long |<br>| c_float | float  | float   |<br>| c_double    |    double  |    float      |<br>| c_longdouble| long double    |   float    float   |<br>| c_char_p     |  char   |   <em>string or None</em>  |<br>| <em>c_wchar_p</em>    |   *wchar_t *   |    unicode or None   |<br>| c_void_p  |  void *   | int/long or None  |</p>
 
         
       
@@ -289,10 +288,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc" data-target="post-toc-wrap">
-          Inhaltsverzeichnis
+          Table of Contents
         </li>
         <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-          Übersicht
+          Overview
         </li>
       </ul>
 
@@ -315,7 +314,7 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">1</span>
-          <span class="site-state-item-name">Artikel</span>
+          <span class="site-state-item-name">posts</span>
         </a>
       </div>
     
@@ -346,9 +345,9 @@
   </span>
   <span class="author" itemprop="copyrightHolder">law</span>
 </div>
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.3.0</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.3.0</div>
 
         
 
