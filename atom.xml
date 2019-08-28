@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kirlaw.github.io/"/>
-  <updated>2019-08-26T06:52:54.799Z</updated>
+  <updated>2019-08-28T03:48:56.516Z</updated>
   <id>https://kirlaw.github.io/</id>
   
   <author>
@@ -17,19 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://kirlaw.github.io/2019/08/26/hello-world/"/>
-    <id>https://kirlaw.github.io/2019/08/26/hello-world/</id>
-    <published>2019-08-26T06:52:54.799Z</published>
-    <updated>2019-08-26T06:52:54.799Z</updated>
+    <title></title>
+    <link href="https://kirlaw.github.io/2019/08/28/ctypes/"/>
+    <id>https://kirlaw.github.io/2019/08/28/ctypes/</id>
+    <published>2019-08-28T03:48:40.639Z</published>
+    <updated>2019-08-28T03:48:56.516Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<hr><h2 id="title-ctypes"><a href="#title-ctypes" class="headerlink" title="title: ctypes"></a>title: ctypes</h2><p>| <strong>ctypes type</strong>   | <strong>C type</strong>   | <strong>Python Type</strong>   |<br>|:—-:|:—-:|:—-:|:—-:|:—-:|:—-:|<br>| c_char   | char   | 1-character string   |<br>| c_wchar   | wchar_t   | 1-character unicode string   |<br>| c_byte   | char   | int/long   |<br>| c_ubyte   |  unsigned char    | int/long   |<br>| c_bool   | bool   | bool   |<br>| c_short   | short   | int/long   |<br>| c_ushort   |             unsigned short                 | int/long   |<br>| c_int   | int   | int/long   |<br>| c_uint   | unsigned int             | int/long   |<br>| c_long   | long   |                 int/long                                                 |<br>| c_ulong   |         unsigned long   |                  int/long                                                |<br>| c_longlong                |     __int64 or longlong   |            int/long                                                      |<br>| c_ulonglong                |   unsigned __int64 or unsigned long long   |              int/long                                                    |<br>| c_float                |              float     | float       |<br>| c_double                |                double       |             float                            |<br>| c_longdouble                |               long double    |                  float    float                                                |<br>| c_char_p                |                char   |                   <em>string or None</em>                                               |<br>| <em>c_wchar_p</em>                |                *wchar_t *   |                 unicode or None                                                 |<br>| c_void_p                |                void *   |                     int/long or None                                              | </p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;hr&gt;
+&lt;h2 id=&quot;title-ctypes&quot;&gt;&lt;a href=&quot;#title-ctypes&quot; class=&quot;headerlink&quot; title=&quot;title: ctypes&quot;&gt;&lt;/a&gt;title: ctypes&lt;/h2&gt;&lt;p&gt;| &lt;strong&gt;ctypes type&lt;/
       
     
     </summary>
